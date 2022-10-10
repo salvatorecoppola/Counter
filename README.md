@@ -9,8 +9,8 @@ This is my first Javascript project-2022
 * [Installation](#installation)
 * [Collaboration](#collaboration)
 * [Know bugs](#know-bugs)
-* [License] (#license)
-* [Contact information] (#contact-information)
+* [License](#license)
+* [Contact information](#contact-information)
 
 
 ## General info
