@@ -7,6 +7,7 @@ document.body.append(numb);
 
 //adding <p> in div for result
 var p = document.createElement('p');
+p.classList = ("p")
 p.textContent = 0
 numb.appendChild(p);
 
@@ -31,7 +32,6 @@ btn.addEventListener("click",()=>{
     counter++;
     btn.setAttribute('data-counter', counter);
     p.innerHTML = counter ;
-    counter.innerHTML = btn;
 });
 
 
@@ -65,6 +65,5 @@ reset.addEventListener("click",()=>{
     counter = 0;
     reset.setAttribute('reset-counter', counter);
     p.innerHTML = counter ;
-    counter.innerHTML = reset;
 });
 
