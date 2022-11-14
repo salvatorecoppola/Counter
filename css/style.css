@@ -16,13 +16,14 @@ body {
     align-items: center;
 }
 
-h1{
+h1 {
     background-color: white;
     font-size: 6em;
+    margin-top: 2%;
 
 }
 
-.numb{
+.numb {
 
     display: flex;
     justify-content: center;
@@ -33,11 +34,13 @@ h1{
     border: 2px solid black;
     border-radius: 12px;
     width: 40%;
-    height: 150px;
+    padding: 1%;
 }
-p{
+
+p {
     background-color: white;
 }
+
 .container {
 
     margin-top: 40px;
@@ -47,8 +50,6 @@ p{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-  
- 
 }
 
 .button {
@@ -65,28 +66,69 @@ p{
     cursor: pointer;
 }
   
-.increase {
+.increaseByOneButton {
     background-color: white; 
     color: black; 
     border: 2px solid black;
     transition-duration: 0.4s;
     border-radius: 12px;
     width: 40%;
-    height: 150px;
-    
+    height: 150px;    
 }
 
-.increase:active {
-  box-shadow: 0 5px #666;
-  transform: translateY(10px);
+.increaseByOneButton:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(10px);
 }
   
-.increase:hover {
+.increaseByOneButton:hover {
     background-color: black;
     color: white;
 }
 
-.decrease {
+.plusTenButton {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    width: 40%;
+    height: 150px;
+    margin-top: 5%;
+}
+
+.plusTenButton:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(10px);
+}
+  
+.plusTenButton:hover {
+    background-color: black;
+    color: white;
+}
+
+.minusTenButton {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    width: 40%;
+    height: 150px; 
+    margin-top: 5%; 
+}
+
+.minusTenButton:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(10px);
+}
+  
+.minusTenButton:hover {
+    background-color: black;
+    color: white;
+}
+
+.decreaseByOneButton {
     background-color: white; 
     color: black; 
     border: 2px solid black;
@@ -96,17 +138,19 @@ p{
     height: 150px;
     
 }
-.decrease:active {
+
+.decreaseByOneButton:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(10px);
-  }
-.decrease:hover {
+}
+
+.decreaseByOneButton:hover {
     background-color: black;
     color: white;
 }
   
-.reset {
+.resetButton {
     background-color: white; 
     color: black; 
     border: 2px solid black;
@@ -117,7 +161,7 @@ p{
     margin-top: 50px;
 }
   
-.reset:hover {
+.resetButton:hover {
     background-color: black;
     color: white;
 }
