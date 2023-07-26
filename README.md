@@ -15,6 +15,7 @@ This is my first Javascript project-2022
 
 ## General info
 This project is a counter.
+https://glowing-cascaron-ce2c2b.netlify.app/
 
 
 ## Description
